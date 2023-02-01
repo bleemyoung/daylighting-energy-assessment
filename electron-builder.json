@@ -1,0 +1,8 @@
+{
+    "productName": "app名字",
+    "files": ["./electron/main.js", "./dist"],
+    "extraFiles": ["./videos", "./cvideo"], 
+    "directories": {
+      "output": "./buileder"
+    }
+  }

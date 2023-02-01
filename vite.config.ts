@@ -9,5 +9,11 @@ export default defineConfig({
   }),electronRender()],
   build:{
     emptyOutDir:false
-  }
+  },
+  server: {
+    port: 8888,
+    cors: true, // 允许跨域
+    hmr: true, // 开启热更新
+  },
+  base:'./'
 })
