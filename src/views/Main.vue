@@ -1,6 +1,8 @@
 <template>
     <h1>Main</h1>
-    <button @click="toMenu">click to menu</button>
+    <div><button @click="toMenu">click to menu</button></div>
+   
+    
 </template>
 <script setup lang="ts">
 import { useRouter } from 'vue-router'

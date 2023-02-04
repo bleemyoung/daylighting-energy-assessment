@@ -7,6 +7,7 @@
 运行
 `npm run dev`
 ### 打包
+切记打包之前把electron/index.ts修改env，pro为开发环境
 使用forge打包
 
 ```

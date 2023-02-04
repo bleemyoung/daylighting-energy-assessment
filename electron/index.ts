@@ -15,7 +15,7 @@ function createWindow() {
     },
   })
  
-  let env = 'pro'
+  let env = 'pro2'
   // 配置热更新
   if (env == 'pro') {
     const elePath = path.join(__dirname, '../node_modules/electron')
