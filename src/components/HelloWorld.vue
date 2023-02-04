@@ -1,11 +1,17 @@
 <script setup lang="ts">
 import { ref } from 'vue'
+import {useRouter} from 'vue-router'
 
 defineProps<{ msg: string }>()
+const router=useRouter()
 
 const count = ref(0)
 function sendMsg(){
   console.log(1)
+}
+function gotoP1(){
+  router.push('/menu')
+  
 }
 </script>
 
@@ -18,8 +24,9 @@ function sendMsg(){
   </div>
   <div>
     <button @click="sendMsg">send</button>
+    <button @click="gotoP1">goto</button>
   </div>
- 
+  
 </template>
 
 <style scoped>
