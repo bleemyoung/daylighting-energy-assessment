@@ -3,9 +3,7 @@
 </script>
 
 <template >
-  <!-- <div class="header">
-    <p>header</p>
-  </div> -->
+
   <div class="mainPage">
    
     <router-view ></router-view>
@@ -19,10 +17,10 @@
   display: block;
     margin: auto;
   position :absolute;
-	width : 99%;
-	height : 95%;
-  border-color: aqua;
-  background-color:cadetblue;
+	width : 90%;
+	height : 90%;
+  /* border-color: aqua; */
+  /* background-color:cadetblue; */
   border-style:solid;
 	border-width:1px;
 }
