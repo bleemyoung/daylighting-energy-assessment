@@ -14,6 +14,7 @@
   "dependencies": {
     "@jridgewell/sourcemap-codec": "^1.4.14",
     "electron-squirrel-startup": "^1.0.0",
+    "element-plus": "^2.2.29",
     "vue": "^3.2.45",
     "vue-router": "^4.1.6"
   },
