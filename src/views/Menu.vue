@@ -10,10 +10,10 @@
     <hr>
     <div class="wrapper">
         <div class="one item">
-            <div class="discription">One</div>
+            <div class="discription">窗下沿距参考平面的高度hx（m）</div>
             <input 
             type="text" 
-            placeholder="Please enter something"
+            placeholder="输入高度（m）"
             class="input-box"  allow-clear>
            
         </div>
@@ -43,9 +43,9 @@ function toMenu() {
 .input-box{
     /* width: 90px; */
     position: relative;
-    width: 60%;
-    height: 50%;
-    top: 25%;     /*相对父容器高度一半*/
+    width: 30%;/* 宽度*/
+    height: 30%;
+    top: 35%;     /* height+2*top==100% 美观*/
     outline-style: none ;
     border: 1px solid #ccc; 
    
@@ -55,7 +55,7 @@ function toMenu() {
     float: left;
     height: 50%;
     top: 25%;
-    width: 20%;
+    width: 50%;
 }
 
 .box1 {

@@ -1,4 +1,5 @@
-# electron项目
+# 采光及能耗评估软件
+daylighting-energy-assessment
 
 ## 运行
 安装依赖库
