@@ -5,8 +5,8 @@ const path = require('path')
 function createWindow() {
   // 创建浏览器窗口
   const mainWindow = new BrowserWindow({
-    width: 1200,
-    height: 800,
+    width: 1620,
+    height: 900,
     webPreferences: {
       // 书写渲染进程中的配置
       nodeIntegration: true, //开启true这一步很重要,目的是为了vue文件中可以引入node和electron相关的API

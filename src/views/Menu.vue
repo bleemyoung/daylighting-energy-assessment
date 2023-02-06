@@ -11,13 +11,21 @@
     <div class="wrapper">
         <div class="one item">
             <div class="discription">One</div>
-            <input type="text" placeholder="Please enter something" size="large" allow-clear>
-            <button>submit</button>
+            <input 
+            type="text" 
+            placeholder="Please enter something"
+            class="input-box"  allow-clear>
+           
         </div>
         <div class="two item">Two</div>
         <div class="three item">Three</div>
         <div class="four item">Four</div>
         <div class="five item">Five</div>
+        <div class="six item">Six</div>
+        <div class="six item">Six</div>
+        <div class="six item">Six</div>
+        <div class="six item">Six</div>
+        <div class="six item">Six</div>
         <div class="six item">Six</div>
     </div>
 </template>
@@ -33,12 +41,21 @@ function toMenu() {
 </script>
 <style scoped>
 .input-box{
-    width:'320px'
+    /* width: 90px; */
+    position: relative;
+    width: 60%;
+    height: 50%;
+    top: 25%;     /*相对父容器高度一半*/
+    outline-style: none ;
+    border: 1px solid #ccc; 
+   
 }
 .discription {
-    /* position: static; */
+    position: relative;
     float: left;
-    /* left: 10px; */
+    height: 50%;
+    top: 25%;
+    width: 20%;
 }
 
 .box1 {
@@ -57,11 +74,13 @@ function toMenu() {
     /*  声明行间距和列间距  */
     grid-gap: 20px;
     /*  声明行的高度  */
-    grid-template-rows: 45% 45%;
+    grid-template-rows: 45% 45% 45% 45%;
 }
 
 .one {
-    background: #19CAAD;
+    /* background: #19CAAD; */
+    border-color: #8CC7B5;
+    border: 1px solid #ccc; 
 }
 
 .two {
